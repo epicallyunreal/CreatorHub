@@ -1,0 +1,10 @@
+export const inputStyle = { width: "100%", padding: "10px 12px", border: "1px solid #ddd", borderRadius: 8, fontSize: 14, boxSizing: "border-box" };
+export const labelStyle = { display: "block", marginBottom: 4, fontSize: 13, fontWeight: 600, color: "#555" };
+export const fieldStyle = { marginBottom: 16 };
+export const rowStyle = { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 };
+export const row3Style = { display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 16 };
+export const sectionStyle = { marginBottom: 24, padding: 20, background: "#f9f9fb", borderRadius: 12, border: "1px solid #eef0f2" };
+export const sectionTitle = { margin: "0 0 16px", fontSize: 16, fontWeight: 600, color: "#333" };
+export const btnPrimary = { padding: "10px 24px", background: "#4fc3f7", color: "#fff", border: "none", borderRadius: 8, fontSize: 14, fontWeight: 600, cursor: "pointer" };
+export const btnSecondary = { padding: "10px 24px", background: "#f5f5f5", color: "#555", border: "1px solid #ddd", borderRadius: 8, fontSize: 14, fontWeight: 600, cursor: "pointer" };
+export const errorStyle = { background: "#fff3f3", color: "#d32f2f", padding: "10px 14px", borderRadius: 8, marginBottom: 16, fontSize: 13 };
