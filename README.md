@@ -1,6 +1,8 @@
 # CreatorHub
 
-CreatorHub is a multi-tenant influencer marketing operations platform built with Django REST Framework and a React/Vite frontend. It supports two operating modes:
+CreatorHub is a multi-tenant SaaS platform for creator agencies and influencer marketing teams.
+
+Built with Django REST Framework and React/Vite, it is designed to help teams manage brands, creators, campaign lifecycles, briefs, deliverables, payouts, collaboration, and reporting in one workflow. The product is tailored to the operational needs of creator agencies, with tenant-aware authentication, role-based permissions, campaign stage tracking, threaded conversations, and dashboards that support the full journey from discovery and negotiation to approvals, publishing, and payout operations.
 
 - Super admin mode for managing client companies, plans, subscriptions, and platform-level stats
 - Client workspace mode for managing brands, creators, campaigns, payouts, teams, reports, notes, and configuration data
