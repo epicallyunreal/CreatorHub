@@ -7,6 +7,14 @@ CreatorHub is a multi-tenant influencer marketing operations platform built with
 
 The backend API lives under `/api/v1`, and the frontend is a single-page app that talks to that API with JWT authentication.
 
+## License
+
+This repository is source-available under the custom non-commercial license in `LICENSE`.
+
+- commercial use is not permitted
+- modified or derivative versions also may not be used commercially
+- this is not an open-source license
+
 ## Current Stack
 
 ### Backend
@@ -616,6 +624,15 @@ Current defaults include:
 - SQLite database at `db.sqlite3`
 - wildcard hosts in development
 - open CORS in debug mode
+
+## SQLite Data Policy
+
+This repository may track `db.sqlite3` for portable development and demo data.
+
+- do not commit production data
+- do not commit secrets, tokens, personal data, invoices, or customer-sensitive records
+- remember that if this repository becomes public, the full git history is public too
+- removing sensitive SQLite data later does not automatically remove it from git history
 
 ## How To Use The App
 
