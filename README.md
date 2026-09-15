@@ -9,6 +9,17 @@ Built with Django REST Framework and React/Vite, it is designed to help teams ma
 
 The backend API lives under `/api/v1`, and the frontend is a single-page app that talks to that API with JWT authentication.
 
+## How this was built
+
+Directed by [@epicallyunreal](https://github.com/epicallyunreal) — product direction, data
+model, and feature scope.
+
+The application itself — the Django REST API and the React frontend — was implemented with
+GitHub Copilot in VS Code.
+
+Later contributions, including the `CLAUDE.md` contributor guide and the permission
+registry fixes, were implemented with Claude Code.
+
 ## License
 
 This repository is source-available under the custom non-commercial license in `LICENSE`.
