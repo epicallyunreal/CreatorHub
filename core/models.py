@@ -80,6 +80,3 @@ class TenantSoftDeleteModel(TenantMixin, SoftDeleteMixin, TimeStampMixin):
 
     class Meta:
         abstract = True
-
-    class Meta:
-        abstract = True

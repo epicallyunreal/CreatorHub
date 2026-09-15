@@ -40,6 +40,13 @@ PERMISSIONS = [
     ("reports.export", "reports", "export", "Export reports (PDF/CSV/Excel)", False),
     ("reports.manage", "reports", "manage", "Full report management (view+export)", True),
 
+    # --- config (shared configuration surfaces) ---
+    ("config.view", "config", "view", "View configuration data", False),
+    ("config.create", "config", "create", "Create configuration data", False),
+    ("config.edit", "config", "edit", "Edit configuration data", False),
+    ("config.void", "config", "void", "Void configuration data", False),
+    ("config.manage", "config", "manage", "Full configuration management", True),
+
     # --- config: domains ---
     ("domains.view", "domains", "view", "View content domains", False),
     ("domains.create", "domains", "create", "Create content domains", False),
@@ -171,7 +178,6 @@ MANAGE_IMPLIES = {
     "business_types.manage": ["business_types.view", "business_types.create", "business_types.edit", "business_types.void"],
     "platforms.manage": ["platforms.view", "platforms.create", "platforms.edit", "platforms.void"],
     "ad_formats.manage": ["ad_formats.view", "ad_formats.create", "ad_formats.edit", "ad_formats.void"],
-    "tags.manage": ["tags.view", "tags.create", "tags.edit"],
     "team_tags.manage": ["team_tags.view", "team_tags.create", "team_tags.edit", "team_tags.void"],
     "employees.manage": [
         "employees.create", "employees.edit", "employees.void", "employees.view",
